@@ -65,4 +65,3 @@ Above, the `%v` represents a value and `%.2f` represents a number(float .2). By 
 ```go
 Hi Saul Goodman, your open rate is 30.50 percent
 ```
-## Function
