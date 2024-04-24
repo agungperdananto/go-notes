@@ -19,8 +19,10 @@ func main() {
 	fmt.Println("=============================================================================")
 	// short declaration
 	numCars := 10
-	temperature := 0.0
-	var isfunny = true
+	var (
+		temperature = 0.0
+		isfunny     = true
+	)
 
 	fmt.Printf("numbers of car: %v \n", numCars)
 	fmt.Printf("temp: %f \n", temperature)
