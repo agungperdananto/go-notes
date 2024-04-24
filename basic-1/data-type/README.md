@@ -1,5 +1,3 @@
-# Basic Go
-
 ## Variable and Data Type
 ### Declaring variable
 **Define a name and type**. Here, you declare a variable with the keyword `var`, give it a name and lastly a type `string`.
