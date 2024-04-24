@@ -61,7 +61,7 @@ Here's how you can print the example string from before:
 	msg := fmt.Sprintf("Hi %v, your open rate is %.2f percent", name, openRate)
 	fmt.Println(msg)
 ```
-Above, the `%v` represents a value and `%.2f` represents a number(float .2). By using these formatters as placeholders, the variables are correctly implemented, and the output becomes:
+Above, the `%v` represents a value and `%.2f` represents a number(float, 2 numbers after the dot). By using these formatters as placeholders, the variables are correctly implemented, and the output becomes:
 ```go
 Hi Saul Goodman, your open rate is 30.50 percent
 ```
